@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VS项目仓库\通讯录管理系统\通讯录管理系统\</FILEPATH>
+      <FILENAME>通讯录系统.cpp</FILENAME>
+      <LINE>187</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用了堆栈的“92008”个字节: 超过了 /analyze:stacksize '16384'。 请考虑将某些数据移到堆中。</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VS项目仓库\通讯录管理系统\通讯录管理系统\</FILEPATH>
+      <FILENAME>通讯录系统.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 addressbook::m_size。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>addressbook::{ctor}</FUNCTION>
+    <DECORATED>??0addressbook@@QAE@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>addressbook::m_size</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VS项目仓库\通讯录管理系统\通讯录管理系统\</FILEPATH>
+      <FILENAME>通讯录系统.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Person::m_sex。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Person::{ctor}</FUNCTION>
+    <DECORATED>??0Person@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Person::m_sex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VS项目仓库\通讯录管理系统\通讯录管理系统\</FILEPATH>
+      <FILENAME>通讯录系统.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 Person::m_age。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>Person::{ctor}</FUNCTION>
+    <DECORATED>??0Person@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Person::m_age</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
