@@ -18,7 +18,7 @@ public:
 		else if (oper == "*")
 		{
 			return m_num1 * m_num2;
-		}
+		} 
 		
 	}
 	int m_num1;
